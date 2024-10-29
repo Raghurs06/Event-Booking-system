@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Raghurs06/Event-Booking-system.git/static/css/main.40c2f724.css",
+    "main.js": "/Raghurs06/Event-Booking-system.git/static/js/main.d6bdfcdd.js",
+    "static/js/453.4de2eb7e.chunk.js": "/Raghurs06/Event-Booking-system.git/static/js/453.4de2eb7e.chunk.js",
+    "static/media/art-workshop.jpg": "/Raghurs06/Event-Booking-system.git/static/media/art-workshop.a04abd2a9e8ebae6aebf.jpg",
+    "static/media/music.jpg": "/Raghurs06/Event-Booking-system.git/static/media/music.645e6585bed60c437882.jpg",
+    "static/media/tech-conference.jpg": "/Raghurs06/Event-Booking-system.git/static/media/tech-conference.fbb605f0d2109016c007.jpg",
+    "static/media/holi-celebration.jpg": "/Raghurs06/Event-Booking-system.git/static/media/holi-celebration.3949ac2c96baca115e74.jpg",
+    "static/media/mainbgphoto.jpg": "/Raghurs06/Event-Booking-system.git/static/media/mainbgphoto.14e2e972d9f9db2aa3ca.jpg",
+    "index.html": "/Raghurs06/Event-Booking-system.git/index.html",
+    "main.40c2f724.css.map": "/Raghurs06/Event-Booking-system.git/static/css/main.40c2f724.css.map",
+    "main.d6bdfcdd.js.map": "/Raghurs06/Event-Booking-system.git/static/js/main.d6bdfcdd.js.map",
+    "453.4de2eb7e.chunk.js.map": "/Raghurs06/Event-Booking-system.git/static/js/453.4de2eb7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40c2f724.css",
+    "static/js/main.d6bdfcdd.js"
+  ]
+}
