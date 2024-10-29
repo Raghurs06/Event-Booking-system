@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "image":"src/assets/tech-conference.png",
+      "title": "Tech Conference",
+      "description": "A conference about the latest in technology.",
+      "category": "Conference",
+      "date": "2024-11-05",
+      "availableSeats": 10,
+      "price": 100
+    },
+    {
+      "id": 2,
+      "title": "Art Workshop",
+      "description": "A workshop for aspiring artists.",
+      "category": "Workshop",
+      "date": "2024-11-03",
+      "availableSeats": 5,
+      "price": 50
+    },
+    {
+        "id": 3,
+        "title": "Holi Celebration",
+        "description": "Celebrate the joy of colors and togetherness at our Holi event – book your spot now for an unforgettable experience!",
+        "category": "Cultural",
+        "date": "2024-11-15",
+        "availableSeats": 20,
+        "price": 200
+      },
+      {
+          "id": 4,
+          "title": "Rhythm Fest – A Musical Extravaganza",
+          "description": "Experience the magic of live music with electrifying performances and soulful melodies – book your tickets for an unforgettable night of rhythm and vibes!",
+          "category": "Music Event",
+          "date": "2024-11-20",
+          "availableSeats": 150,
+          "price": 250
+        }
+  ]
+  
