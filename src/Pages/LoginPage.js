@@ -18,7 +18,7 @@ const LoginPage = () => {
 
     if (username === mockUser.username && password === mockUser.password) {
       login(username); 
-      navigate('/'); 
+      navigate('/event-booking-system'); 
     } else {
       setError('Invalid username or password.');
     }
