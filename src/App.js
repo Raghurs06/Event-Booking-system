@@ -13,11 +13,11 @@ function App() {
      <AuthProvider>
     <BrowserRouter>
     <Routes>
-    <Route exact path = "/Event-Booking-system" element={<HomePage />} />
-    <Route path = "/event/:id" element={<EventDetails />} />
-    <Route path = "/login" element={<LoginPage />} />  
-    <Route path = "/eventlist" element={<EventList />} />  
-    <Route path = "*" element={<NotFoundPage />} />  
+    <Route path = "/event-booking-system" element={<HomePage/>} />
+    <Route path = "/event/:id" element={<EventDetails/>} />
+    <Route path = "/login" element={<LoginPage/>} />  
+    <Route path = "/eventlist" element={<EventList/>} />  
+    <Route path = "*" element={<NotFoundPage/>} />  
       </Routes>    
     </BrowserRouter>
     </AuthProvider>

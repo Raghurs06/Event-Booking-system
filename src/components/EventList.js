@@ -76,18 +76,7 @@ const EventList = () => {
               />
             </div>
             <div id='content'>
-            {/* 
-            <h2>{event.title}</h2>
-            <p>{event.description}</p>
-            <p>Category: {event.category}</p>
-            <p>Date: {event.date}</p>
-            <p>Available Seats: {event.availableSeats}</p>
-            <p>Price: ${event.price}</p>
-            <Link to={`/event/${event.id}`}>
-              <button className="btn btn-primary" aria-label={`View details for ${event.title}`}>View Details</button>
-            </Link>
-             */}
-            
+                        
             <h3>{event.title}</h3>
             <p>{event.description}<br/>
             Category: {event.category}<br/>

@@ -27,7 +27,7 @@ function HomePage() {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" aria-current="page" to="/event-booking-system">
                   Home
                 </Link>
               </li>
@@ -37,7 +37,7 @@ function HomePage() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link"  to="/">Contact</Link>
+                <Link className="nav-link"  to="/event-booking-system">Contact</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/login">
