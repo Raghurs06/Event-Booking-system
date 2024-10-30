@@ -28,7 +28,7 @@ const EventDetails = () => {
   
 
   const handleBack = () => {
-    navigate("/event-booking-system");
+    navigate("/");
   };
   const eventImages = {
     1: require('../assets/tech-conference.jpg'),
