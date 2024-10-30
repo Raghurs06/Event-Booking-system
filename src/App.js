@@ -1,5 +1,6 @@
+import React from 'react'; // Import React
 import './App.css';
-import HomePage from './Pages/HomePage'
+import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import EventDetails from './components/EventDetails';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -9,19 +10,17 @@ import NotFoundPage from './Pages/NotFoundPage';
 
 function App() {
   return (
-    <>
-     <AuthProvider>
-    <BrowserRouter>
-    <Routes>
-    <Route path = "/event-booking-system" element={<HomePage/>} />
-    <Route path = "/event/:id" element={<EventDetails/>} />
-    <Route path = "/login" element={<LoginPage/>} />  
-    <Route path = "/eventlist" element={<EventList/>} />  
-    <Route path = "*" element={<NotFoundPage/>} />  
-      </Routes>    
-    </BrowserRouter>
+    <AuthProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/event-booking-system" element={<HomePage />} />
+          <Route path="/event/:id" element={<EventDetails />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/eventlist" element={<EventList />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </BrowserRouter>
     </AuthProvider>
-    </>
   );
 }
 

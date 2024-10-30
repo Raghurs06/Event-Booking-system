@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://Raghurs06.github.io/Event-Booking-system",
+  "homepage": "https://Raghurs06.github.io/Event-Booking-system",
   "name": "event-booking-system",
   "version": "0.1.0",
   "private": true,
@@ -10,13 +10,13 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",    
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -25,7 +25,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+    "react/react-in-jsx-scope": "off"
+    }
   },
   "browserslist": {
     "production": [
