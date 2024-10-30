@@ -21,7 +21,7 @@
     {
         "id": 3,
         "title": "Holi Celebration",
-        "description": "Celebrate the joy of colors and togetherness at our Holi event – book your spot now for an unforgettable experience!",
+        "description": "Celebrate the joy of colors at our Holi event!",
         "category": "Cultural",
         "date": "2024-11-15",
         "availableSeats": 20,
@@ -30,7 +30,7 @@
       {
           "id": 4,
           "title": "Rhythm Fest – A Musical Extravaganza",
-          "description": "Experience the magic of live music with electrifying performances and soulful melodies – book your tickets for an unforgettable night of rhythm and vibes!",
+          "description": "Experience the magic of live music with soulful melodies!",
           "category": "Music Event",
           "date": "2024-11-20",
           "availableSeats": 150,

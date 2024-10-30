@@ -1,5 +1,4 @@
 import React from "react";
-import backgroundImage from '../assets/mainbgphoto.jpg';
 import TechConference from '../assets/tech-conference.jpg';
 import Music from '../assets/music.jpg';
 import HoliCelebration from '../assets/holi-celebration.jpg';
@@ -28,9 +27,9 @@ function HomePage() {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/eventlist">
@@ -38,7 +37,7 @@ function HomePage() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link"  href="#">Contact</a>
+                <Link className="nav-link"  to="/">Contact</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/login">
@@ -50,26 +49,26 @@ function HomePage() {
         </div>
       </nav>
       <div className="bg-img-container">
-        <img src={backgroundImage} alt="" />
+        {/* <img src={backgroundImage} /> */}
       </div>
       <div className="message-container">
         <h1>Event Booking</h1>
         <h1 id="h1">Website</h1>
       </div>
       <div className="event-container">
-        <div className="event-img-container">
+        <div className="event-img-container1">
           <img src={TechConference} alt="" /> 
           <Link className="nav-link" to="/eventlist">
           <button className="btn btn-primary">Book Ticket</button> 
           </Link>        
         </div>
-        <div className="event-img-container">
+        <div className="event-img-container2">
           <img src={Music} alt="" />
           <Link className="nav-link" to="/eventlist">
           <button className="btn btn-primary">Book Ticket</button> 
           </Link> 
         </div>
-        <div className="event-img-container">
+        <div className="event-img-container3">
           <img src={HoliCelebration} alt="" />
           <Link className="nav-link" to="/eventlist">
           <button className="btn btn-primary">Book Ticket</button> 

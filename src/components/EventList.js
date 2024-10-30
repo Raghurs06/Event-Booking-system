@@ -65,18 +65,18 @@ const EventList = () => {
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
       />
-      <ul>
+      <div>
         {currentEvents.map(event => (
-          <li key={event.id}>
+          <div key={event.id}>
             <div className="main-event-List-container">
             <div>
            <img 
               src={eventImages[event.id] || eventImages[1]} 
               alt={event.title || 'Event Image'} 
-              style={{width: '20vw', height: '60vh', objectFit: 'cover' }}   
-            />
+              />
             </div>
             <div id='content'>
+            {/* 
             <h2>{event.title}</h2>
             <p>{event.description}</p>
             <p>Category: {event.category}</p>
@@ -86,11 +86,22 @@ const EventList = () => {
             <Link to={`/event/${event.id}`}>
               <button className="btn btn-primary" aria-label={`View details for ${event.title}`}>View Details</button>
             </Link>
+             */}
+            
+            <h3>{event.title}</h3>
+            <p>{event.description}<br/>
+            Category: {event.category}<br/>
+            Date: {event.date}<br/>
+            Available Seats: {event.availableSeats}<br/>
+            Price: ${event.price}</p>
+            <Link to={`/event/${event.id}`}>
+              <button className="btn btn-primary" aria-label={`View details for ${event.title}`}>View Details</button>
+            </Link>
            </div>
            </div>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
      
       <Pagination 
         currentPage={currentPage} 

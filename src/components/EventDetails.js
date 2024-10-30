@@ -45,14 +45,14 @@ const EventDetails = () => {
  
   return (
     <div className="eventdetails-img-container">
-      <img src={eventImages[event.id] || eventImages[1]} alt={event.title} style={{width: '25vw', height: '80vh', objectFit: 'cover' }} />
+      <img src={eventImages[event.id] || eventImages[1]} alt={event.title} />
       <div>
       <h1>{event.title}</h1>
-      <p>{event.description}</p>
-      <p>Category: {event.category}</p>
-      <p>Date: {event.date}</p>
-      <p>Available Seats: {availableSeats}</p>
-      <p>Price: ${event.price}</p>
+      <p>{event.description}<br/>
+      Category: {event.category}<br/>
+      Date: {event.date}<br/>
+      Available Seats: {availableSeats}<br/>
+      Price: ${event.price}</p>
       <button className="btn btn-primary" onClick={handleBooking}>Book Ticket</button>
       <button className="btn btn-primary" onClick={handleBack}>Back to Event List</button>
       </div>

@@ -5,7 +5,7 @@ import EventDetails from './components/EventDetails';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from './context/AuthContext';
 import EventList from './components/EventList';
-// import NotFound from './Pages/NotFoundPage';
+import NotFoundPage from './Pages/NotFoundPage';
 
 function App() {
   return (
@@ -13,11 +13,11 @@ function App() {
      <AuthProvider>
     <BrowserRouter>
     <Routes>
-    <Route exact path = "/" element={<HomePage />} />
+    <Route exact path = "/Event-Booking-system" element={<HomePage />} />
     <Route path = "/event/:id" element={<EventDetails />} />
     <Route path = "/login" element={<LoginPage />} />  
     <Route path = "/eventlist" element={<EventList />} />  
-    {/* <Route path="" element={<NotFound />} /> */}
+    <Route path = "*" element={<NotFoundPage />} />  
       </Routes>    
     </BrowserRouter>
     </AuthProvider>
