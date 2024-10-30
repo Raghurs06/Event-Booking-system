@@ -89,6 +89,11 @@ footer{
   justify-content: space-between;
   img{
     border-radius: 5px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  img:hover {
+    transform: scale(1.1); 
   }
   p{
     font-weight: 500;
@@ -119,6 +124,11 @@ footer{
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
   img{
     border-radius: 5px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  img:hover {
+    transform: scale(1.1); 
   }
   p{
     font-weight: 500;
@@ -127,3 +137,15 @@ footer{
     margin-left: 3vw;
   }
 }
+.event-img-container img{
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.event-img-container img:hover{
+  transform: scale(1.1);
+}
+
+
+
